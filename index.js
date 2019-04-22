@@ -16,7 +16,7 @@ const titleCased = () => {
   tutorials.each(tutorial => {
     let arr = tutorial.split(" ");
     newArr.concat(arr.map(word => {
-      return word[0].toUpperCase
+      return word[0].toUpperCase()
     }))
   })
   return tutorials
