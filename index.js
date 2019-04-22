@@ -13,7 +13,7 @@ const tutorials = [
 
 const titleCased = () => {
   tutorials.map(tutorial => {
-    tutorial.split
+    let arr = tutorial.split(" ")
   })
   return tutorials
 }
